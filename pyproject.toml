@@ -1,0 +1,42 @@
+[tool.poetry]
+name = "whatsapp-business-api"
+version = "0.1.4"
+description = "A wrapper for WhatsApp Business Cloud API provided by Meta."
+authors = ["Abdurrahman Dilmac", "Muhammed Emin Gure"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/cerob/whatsapp-business-api-py"
+repository = "https://github.com/cerob/whatsapp-business-api-py"
+keywords = [""]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Framework :: FastAPI",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3.6",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11  ",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Communications :: Chat",
+    "Typing :: Typed"
+]
+
+[tool.poetry.dependencies]
+python = ">=3.6.2,<4.0"
+requests = "^2.27.1"
+fastapi = "^0.78.0"
+pydantic = "^1.9.1"
+
+[tool.poetry.dev-dependencies]
+yapf = "^0.32.0"
+
+[tool.poetry.urls]
+"Bug Tracker" = "https://github.com/python-poetry/poetry/issues"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
